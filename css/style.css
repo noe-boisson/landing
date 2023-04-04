@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:ital,wght@0,400;0,900;1,700&display=swap")
+
+@import url("components/container.css")
+
+body {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+}
+h1, h2, h3 {
+	font-family:'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+
+
+.container {
+	width: 700px;
+	margin: 70px;
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px
+	}
+}
+
+.avatar {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: rgb(34, 156, 204);
+	color: #F6F9FC;
+	padding: 12px 18px;
+	border-radius: 5px;
+}
+a {
+	text-decoration: none;
+}
+.banner {
+	background-image: url("../images/background.jpeg");
+	color: white;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+}
+.banner h1 {
+	font-size: 55px;
+}
+.banner h2 {
+	font-size: 32px
+	font-weight: lighter;
+	opacity: 0.8;
+	margin-bottom: 40px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	padding: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	margin: 12px 5px;
+	flex-basis: 220px;
+	flex-grow: 1;
+
+
+}
+.card img {
+	width: 200px;
+	border-radius: 5px;
+}
+.card h3 {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
